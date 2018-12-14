@@ -11,7 +11,7 @@ Our Canopy is a community bulletin board where members can share their thoughts,
 # Creation
 Just as any interaction in the real world puts something at risk (ie reputation), Canopy requires its members to take a small risk when creating content.
 
-When adding any content, a member must deposit a stake. They may choose any amount above a small minimum; the amount they stake determines the potential rewards they might get returned. Vitalik Buterin has called this technique of requiring up front risk in order to post content to the blockchain "Proof of Stake Hash Cache".
+When adding any content, a member must deposit a stake. They may choose any amount above a small minimum; the amount they stake determines the potential rewards they might get returned. Vitalik Buterin has called this technique of requiring up front risk in order to post content to the blockchain "Proof of Stake Hash Cache". But we just call it "Creation" ;)
 
 Members own the content they post, and a variety of cryptographic techniques that Canopy uses helps to ensure that member privacy settings are always respected, and that creators receive payment when / if their content is licensed.
 
@@ -52,7 +52,6 @@ When the community pool reaches a certain threshold (could be account balance or
 
 A jackpot payout also pays 10% of the community pool back to Canopy maintainers.
 
-
 # The Wilderness 
 Canopy's vibrant economy represents a safe way for humans to take their communities online. 
 
@@ -72,6 +71,7 @@ As much as the cryptoeconomic setup of Canopy is a huge social good in itself, i
 **Simple**: 
 * No confusing terminology. None.
 * No 3rd party browser extensions required (yes this can be done today)
+* No wait times on transactions
 * Managed keys or advanced users can import their own
 * Easily used in wallet / Dapp browser
 * (maybe) integrate with Slack / Discord / etc
@@ -84,6 +84,33 @@ As much as the cryptoeconomic setup of Canopy is a huge social good in itself, i
 * Most social feeds are too soulless, Canopies should be able to show the identity of their community
 * The experience should feel like a game that everyone wins
 
-3-specifics of Tech
-5-Tokenomics
-6-growth strategy
+# Tech
+Canopy is built on Ethereum. In order to speed up finality of transactions, it uses Plasma (at first a third party service).
+
+Canopy is mobile-first, built to be used in iOS Safari or Android Chrome. Also great in mobile wallets.
+
+# Tokenomics
+Canopy has its own token, which should start at a very low cost. Users should feel like creation and curation costs anything from pocket change to lunch money, and _not more_.
+
+Creating a Canopy will cost some money, and include some number of user accounts seeded with token. 
+
+Creation and curation, the two primary member activities, are positive economic activities. The more posts created, the more votes cast in curation, the more valuable the Canopy economy will be.
+
+We expect that the economy will be sticky: the average member should be turning over a few dollars of value in any given week, or not enough to want to immediately withdraw (e.g. Venmo). At the same time, members should be able to exchange Ethereum for platform token easily. 
+
+As the total economic activity on Canopy increases, we expect the value of the token to increase. We intend to have an enormous supply of token such that inflation over time won't have a tremendous effect for any small user.
+
+Our token will also represent an ownership stake in the platform itself.
+
+In the future, posts on Canopy might be available for license, with profit going directly to the creator.
+
+In the future, aggregated member data might be sold, with the revenue returning to the Canopy that it represents.
+
+# Growth
+Canopy does its best to mimic real world community in the digital world, so we will grow by pursuing real world communities.
+
+At first:
+* Developer communities
+* Streamer communities
+* Churches & charities
+* Schools
