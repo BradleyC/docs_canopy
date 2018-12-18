@@ -13,3 +13,7 @@ Beyond this, in principle:
 * Caretakers own their communities. It is up to them to coordinate conversations. Not to intervene or invent, but to help people express themselves authentically.
 
 And while creating and curating do have their own intrinsic rewards, in Canopy these activities have their own monetary reward as well.
+
+Canopy Members retain ownership of their creations in perpetuity. They will always get credit for their content and one day might be able to license their content on Canopy as well.
+
+[back to main page](index.md)

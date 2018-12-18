@@ -10,3 +10,5 @@ Our expectation for the initial community caretakers is to sculpt their communit
 * Keeping a close eye on new posts, and being sure to vote up or down as appropriate.
 * Ensuring that there are always posts to discuss, adding posts when needed.
 * Keeping the tone light and positive, through example and through moderation.
+
+[back to main page](index.md)

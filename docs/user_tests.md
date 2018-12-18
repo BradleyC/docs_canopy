@@ -39,4 +39,6 @@ These tests should be _fun_: they should give the full experience of participati
 
 We'll also ask players to host us for future test sessions. We want to get in front of as many people as possible as quickly as possible. Hosts may get a token reward for their participation.
 
-Ultimately, we feel that the personal connections established in these tests will help build the base for an authentic online community.s
+Ultimately, we feel that the personal connections established in these tests will help build the base for an authentic online community.
+
+[back to home page](index.md)
