@@ -16,7 +16,7 @@ When adding any content, a member must deposit a stake. They may choose any amou
 Members own the content they post, and a variety of cryptographic techniques that Canopy uses helps to ensure that member privacy settings are always respected, and that creators receive payment when / if their content is licensed.
 
 # Curation
-Curation of content on the platform takes place through voting, beginning with upvoting and downvoting.
+Curation of content on the platform takes place through voting, beginning with boosting and burning.
 
 Canopy uses Quadratic Voting (Recently popularized by Glen Weyl and Eric Posner) to rank votes. A member must pay for each vote, and a member may vote as many times as they wish. However, each additional vote costs more than the last, increasing exponentially.
 
@@ -40,24 +40,24 @@ There are three ways to receive tokens from the Canopy curation process itself:
 2. Transfer through curation votes
 3. Bonus payment 
 
-**Return of creation stake**: when a member chooses to cash out their post (any point within 30 days of posting), they will receive a return of their initial stake based on their ratio of upvotes to downvotes. 75% positive votes will return 75% of initial stake.
+**Return of creation stake**: when a member chooses to cash out their post (any point within 30 days of posting), they will receive a return of their initial stake based on their ratio of boosts to burns. 75% positive votes will return 75% of initial stake.
 
 **Transfer through curation votes**: When another member pays to make a positive vote, that payment will be sent on to the post's creator.
 
 **Bonus payment**: when a member's post reaches a Curation Score threshold, they will receive an additional payment based on their initial stake, up to doubling their initial stake.
 
-But the biggest rewards are returned to the Canopy community. While individual members tend are rewarded for their positive results, any money spent / surrendered to downvoting goes into that Canopy's community pool. This funds the bonus pool for individual posts as well as the community jackpot.
+But the biggest rewards are returned to the Canopy community. While individual members tend are rewarded for their positive results, any money spent / surrendered to burning goes into that Canopy's community pool. This funds the bonus pool for individual posts as well as the community windfall.
 
 When the community pool reaches a certain threshold (could be account balance or could be voted by Canopy community), 70% of the money in the pool is distributed to all members who were active participants since the last bonus payout. 
 
-A jackpot payout also pays 10% of the community pool back to Canopy maintainers.
+A windfall payout also pays 10% of the community pool back to Canopy maintainers.
 
 # The Wilderness 
 Canopy's vibrant economy represents a safe way for humans to take their communities online. 
 
 Most social feeds allow their users to post as much content as they want for "free", but in fact users who post to Twitter, Facebook, etc are performing labor for those publishers, creating content that those platforms assume ownership over.
 
-These publishers use techniques that amplify the most popular content. Those with enough knowledge can learn how to game the ranking formulae. On a platform where posting is free, voting is free, and accounts are free, a person or organization with enough willpower can find any number of methods to make sure their voice overpowers the voice authentic users.
+These publishers use techniques that amplify the most popular content. Those with enough knowledge can learn how to game the ranking formulae. On a platform where posting is free, voting is free, and accounts are free, a person or organization with enough willpower can find any number of methods to make sure their voice overpowers the voice of authentic users.
 
 Any platform that represents itself as free is foundationally vulnerable to (if not explicitly created for) exploitation by spammers, propagandists, and identity brokers.
 
@@ -87,7 +87,16 @@ As much as the cryptoeconomic setup of Canopy is a huge social good in itself, i
 # Tech
 Canopy is built on Ethereum. In order to speed up finality of transactions, it uses Plasma (at first a third party service).
 
-Canopy is mobile-first, built to be used in iOS Safari or Android Chrome. Also great in mobile wallets.
+Canopy is mobile-first, built to be used in iOS or Android browsers. Also great in mobile wallets.
+
+# Who are the maintainers?
+We mentioned that "the maintainers" receive a partial payout from every windfall, but who are these maintainers?
+
+Maintainers of Canopy are:
+* Software Developers, Designers, etc
+* Community Caretakers
+
+This is to say that there is a financial incentive for early Community Caretakers to bring their communities into Canopy - fostering a community will bring a form of royalties. And of course, an incentive for technologists to build the platform.
 
 # Tokenomics
 Canopy has its own token, which should start at a very low cost. Users should feel like creation and curation costs anything from pocket change to lunch money, and _not more_.
@@ -109,8 +118,7 @@ In the future, aggregated member data might be sold, with the revenue returning 
 # Growth
 Canopy does its best to mimic real world community in the digital world, so we will grow by pursuing real world communities.
 
-At first:
-* Developer communities
-* Streamer communities
-* Churches & charities
-* Schools
+* Should we allow tiering / collation of clans / alliances / etc?
+
+# The First User Tests
+User tests will begin the week of 12/17. A description of the test, method, and hypotheses to be tested can be found [here](user_tests.md).
