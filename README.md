@@ -1,7 +1,7 @@
 # Canopy
 ## authentic human community
 
-### Canopy is an online community built to foster authentic communication. It's owned by its users, users retain ownership of their content, and advanced techniques in voting and economics keep out spammers and propagandists. 
+### Canopy is an online community built to [foster authentic communication](culture.md). It's owned by its users, [users retain ownership of their content](ownership.md), and advanced techniques in voting and economics keep out spammers and propagandists. 
 
 # What is a Canopy?
 A Canopy is the upper layer of leaves in an area of forest, protecting the ecosystem that thrives beneath.
@@ -122,3 +122,8 @@ Canopy does its best to mimic real world community in the digital world, so we w
 
 # The First User Tests
 User tests will begin the week of 12/17. A description of the test, method, and hypotheses to be tested can be found [here](user_tests.md).
+
+# Culture
+Culture is hugely important. The tone of the first few communities will set the pattern for the entire rest of the ecosystem.
+
+[More on culture here](culture.md).
