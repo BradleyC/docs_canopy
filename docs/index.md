@@ -1,12 +1,16 @@
 # Canopy
-## authentic human community
+## the framework for dynamic human community
 
-### Canopy is an online community built to [foster authentic communication](culture.md). It's owned by its users, [users retain ownership of their content](ownership.md), and advanced techniques in voting and economics keep out spammers and propagandists. 
+### Canopy is a framework for online community built to [foster authentic communication](culture.md). It's owned by its users, [users retain ownership of their content](ownership.md), and advanced techniques in voting and economics keep out spammers and propagandists. 
 
 # What is a Canopy?
 A Canopy is the upper layer of leaves in an area of forest, protecting the ecosystem that thrives beneath.
 
-Our Canopy is a community bulletin board where members can share their thoughts, links, comments, photos, proposals, etc with complete confidence that they are in control of their content. There are many Canopies, each focused around a specific interest, organization, or geographic area. If desired, users can publish their content to one of our meta-canopies (need a better name) that is a board of the best content as created and curated by our members.
+Our Canopy framework consists of:
+
+* A ground floor, a place for individual members to make their own
+* Understories, collection points for small communities
+* Canopies, where content is curated and distributed to the entire community
 
 # Creation
 Just as any interaction in the real world puts something at risk (ie reputation), Canopy requires its members to take a small risk when creating content.
@@ -18,7 +22,7 @@ Members own the content they post, and a variety of cryptographic techniques tha
 # Curation
 Curation of content on the platform takes place through voting, beginning with boosting and burning.
 
-Canopy uses Quadratic Voting (Recently popularized by Glen Weyl and Eric Posner) to rank votes. A member must pay for each vote, and a member may vote as many times as they wish. However, each additional vote costs more than the last, increasing exponentially.
+Canopy uniquely allows Quadratic Voting (Recently popularized by Glen Weyl and Eric Posner) to rank votes. This system requires a member to pay for each vote, and a member may vote as many times as they wish. However, each additional vote costs more than the last, increasing exponentially.
 
 ```
 cost = votes^2
@@ -27,9 +31,12 @@ cost = votes^2
 
 This allows members who feel very passionately about a particular post to increase the volume of their voice, but keeps one or two wealthy members from hijacking the conversation.
 
-Canopy uses quadratic voting to get sentiment as the ratio of positive to negative votes, and then factors in popularity, which measures unique votes over time.
+Canopies use quadratic voting to get sentiment as the ratio of positive to negative votes, and then factors in popularity, which measures unique votes over time.
 
 In this way, the Canopy community creates a continuously changing score for each piece of content. Each Canopy's home view is made up of posts sorted in order of Curation Score.
+
+# Features
+As a framework, Canopy will be highly customizable. [Our page on features](features.md) has the full details.
 
 # Rewards
 We've discussed costs implemented in Canopy that represent risks taken in real world communities, but is there any way for that cost to return to Canopy members? I'm glad you asked.
@@ -61,6 +68,20 @@ These publishers use techniques that amplify the most popular content. Those wit
 
 Any platform that represents itself as free is foundationally vulnerable to (if not explicitly created for) exploitation by spammers, propagandists, and identity brokers.
 
+# Governance
+The Canopy maintainers will form a DAO to govern topics such as:
+* Community standards
+* Economic management
+* Platform / ecosystem management
+* Management of funds
+
+Each understory will be supplied with tools to make necessary governance decisions such as:
+* Community specific guidelines
+* Selection / management of features
+* Discretionary decisions regarding community pool (funds)
+
+Understories will be able to decide whether they want to be managed by a sole user / small group or require some decisions to be made by member.
+
 # Win 'em with UX
 As much as the cryptoeconomic setup of Canopy is a huge social good in itself, it won't mean much without a user base. Canopy is:
 
@@ -85,7 +106,7 @@ As much as the cryptoeconomic setup of Canopy is a huge social good in itself, i
 * The experience should feel like a game that everyone wins
 
 # Tech
-Canopy is built on Ethereum. In order to speed up finality of transactions, it uses Plasma (at first a third party service).
+Canopy is built on Ethereum. In order to speed up finality of transactions, it uses Plasma (at first a third party service, likely Loom).
 
 Canopy is mobile-first, built to be used in iOS or Android browsers. Also great in mobile wallets.
 
@@ -101,7 +122,9 @@ This is to say that there is a financial incentive for early Community Caretaker
 # Tokenomics
 Canopy has its own token, which should start at a very low cost. Users should feel like creation and curation costs anything from pocket change to lunch money, and _not more_.
 
-Creating a Canopy will cost some money, and include some number of user accounts seeded with token. 
+We are currently investigating techniques in bonding curves, with the goal of being able to manage the value of the Canopy token. We would like to keep the value of the Canopy token relatively stable vs fiat currencies, with a small and consistent rate of inflation.
+
+Creating a Canopy may cost some money, and include some number of user accounts seeded with token. 
 
 Creation and curation, the two primary member activities, are positive economic activities. The more posts created, the more votes cast in curation, the more valuable the Canopy economy will be.
 
